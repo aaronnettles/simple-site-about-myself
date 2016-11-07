@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(mrt.jpg);
+	background-repeat:repeat;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+	color: yellow;
+}
+
+.active {
+    background-color: #0066cc;
+	
+	
+	
+}
+li a:hover {
+    background-color: #111;
+}
+
+div {
+    width: 115px;
+    height: 50px;
+    background: rgba(32, 32, 32, 0.5);
+    transition: width 4s;
+    -webkit-transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+	color: yellow;
+}
+
+/* section */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section {
+	width: 70%;
+	float: none;
+	margin: 2cm 4cm 3cm 4cm;
+	border-radius: 1rem;
+	padding: 1rem 1rem 1rem 1rem;
+	background-color: rgba(32, 32, 32, 0.5);
+}
+
+section.x {
+  width: 40%;
+  float: none;
+  margin: 1cm 4cm 3cm 8cm;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+h1 {
+    text-align: center;
+	color: white;
+}
+h1:hover {
+	color: yellow;
+}
+
+h3 {
+    	color: white;
+}
+
+h3:hover {
+	color: yellow;
+}
+
+p.x {
+	color: black;
+	
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+	background-color: black;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+	background-color: black;
+}
+
+h2.x {
+	background-color: black;
+	color: white;
+	
+}
+aside {
+  width: 30%;
+  float: right;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+blockquote {
+	background-color: black;
+	color: white;
+}

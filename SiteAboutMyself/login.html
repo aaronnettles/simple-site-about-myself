@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Login</title>
+  <!-- comments -->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles_a.css" type="text/css" rel="stylesheet">
+  <link href="fonts/glyphicons-halflings-regular.html" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav>
+	<ul>
+	  <li><a href="home.html" class="float-left">Home</a></li>
+	  <li><a href="services.html" class="float-left">Services</a></li>
+	  <li><a href="about.html" class="float-left">About</a></li>
+	  <li><a href="contact.html" class="float-right">Contact</a></li>
+	</ul>
+  </nav>
+  <section x>
+<form class="form-horizontal" method="post" action="login.php" >
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Full Name</label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="name" placeholder="Full Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label" pattern=".{8,}" title="incorrect student ID">Password</label>
+    <div class="col-sm-10">
+      <input type="password" name="name" class="form-control" id="inputPassword3" placeholder="Student ID">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+        <br>
+         <label>
+          
+          <p>If you're a new member click <a href="newMember.php"> here</a>
+          </p>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" name="Submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+</section x>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

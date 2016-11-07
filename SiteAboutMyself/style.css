@@ -1,0 +1,122 @@
+/* basic typography */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+}
+
+p {
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+
+/* links  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgba(32, 128, 233, 1);
+}
+
+a:visited {
+    color: rgba(32, 128, 233, 1);
+}
+
+a:hover {
+    color: rgba(64, 160, 255, 1);
+}
+
+a:active {
+    color: rgba(64, 160, 255, 1);
+}
+
+
+/* nav  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav ul {
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: 
+}
+ 
+nav li a {
+    display: inline;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* section */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section {
+    width: 100%;
+}
+
+
+/* columns */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .col-1 { width: 12.5%; }
+    .col-2 { width: 25%; }
+    .col-3 { width: 37.5%; }
+    .col-4 { width: 50%; }
+    .col-5 { width: 62.5%; }
+    .col-6 { width: 75%; }
+    .col-7 { width: 87.5%; }
+    .col-8 { width: 100%; }
+}
+
+
+/* images in divs */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+div > img {
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    max-width: 90%;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+
+/* floaters */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+
+/* specials */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.robotic {
+  display: none;
+}

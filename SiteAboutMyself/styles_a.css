@@ -1,0 +1,147 @@
+/* basic typography */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-image: url("test.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2rem;
+}
+
+
+/* navigation */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav ul {
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+ 
+nav li a {
+  display: inline;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li a:link {
+  color: white;
+}
+
+nav li a:visited {
+  color: white;
+}
+
+nav li a:hover {
+  color: red;
+}
+
+nav li a:active {
+  color: red;
+}
+
+
+/* section */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+section {
+  width: 70%;
+  float: left;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+section x{
+  width: 20%;
+  float: right;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+section p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+
+/* aside */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+aside {
+  width: 20%;
+  float: right;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: rgba(32, 32, 32, 0.5);
+}
+
+aside ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  list-style-type: none;
+  overflow: scroll;
+}
+ 
+aside li a {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+aside li a:link {
+  color: white;
+}
+
+aside li a:visited {
+  color: white;
+}
+
+aside li a:hover {
+  color: red;
+}
+
+aside li a:active {
+  color: red;
+}
+
+
+/* helper classes */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+pre {
+	color: red;
+	font-weight: bold;
+	font-family: Raleway, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
