@@ -1,0 +1,1 @@
+Site may be a little confusing. This was a test site for myself, but it displays a hangman game. It also contains a flow chart of what the site's functionality was going to consist of. Tic Tac Toe should be incorperated on about page! enjoy.
